@@ -40,17 +40,17 @@ msgstr "{0} ve müttefikleri"
 #. placeholder {0}: lawConfig.minActiveCitizen
 #: src/components/_political/law/Law.tsx:120
 msgid "{0} active citizens required"
-msgstr ""
+msgstr "{0} aktif vatandaş gerekir."
 
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
 #: src/components/_user/notification/notification.frontConfig.tsx:606
 msgid "{0} bought your item offer"
-msgstr "{0} eşya teklifini satın aldı"
+msgstr "{0} eşyanı satın aldı"
 
 #. placeholder {0}: Math.floor(cooldownHours / 24)
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:144
 msgid "{0} days cooldown"
-msgstr ""
+msgstr "(0} gün bekleme süresi"
 
 #. placeholder {0}: user.data.leveling.freeReset
 #: src/pages/user/[userId]/skills.tsx:169
@@ -67,7 +67,7 @@ msgstr "{0} saat"
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
 #: src/components/_user/notification/notification.frontConfig.tsx:629
 msgid "{0} proposed a law, check it out!"
-msgstr "{0} bir yasa önerdi, kontrol et!"
+msgstr "{0} bir yasa sundu, göz at!"
 
 #. placeholder {0}: staticGameConfig.battle.roundsToWin
 #: src/components/_military/battle/RoundScore.tsx:54
@@ -77,7 +77,7 @@ msgstr "Savaşı kazanmak için {0} tur gerekli."
 #. placeholder {0}: user.data?.username
 #: src/pages/user/[userId]/companies.tsx:85
 msgid "{0}'s Companies"
-msgstr "{0}'in Şirketleri"
+msgstr "{0}'ın Şirketleri"
 
 #. placeholder {0}: activeCompaniesCount.data ?? 0
 #. placeholder {1}: companiesLimit ?? 1
@@ -119,23 +119,23 @@ msgstr "{score}/{0} Tur"
 
 #: src/components/_other/shop/SkinPackModal.tsx:224
 msgid "*If the user already owns some pieces of the set, the price will be reduced"
-msgstr ""
+msgstr "*Kullanıcı setin bazı parçalarına zaten sahipse, fiyat düşürülecektir"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:143
 msgid "*May burn"
-msgstr "*Yanabilir"
+msgstr "*Alev alabilir"
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:120
 #~ msgid "+{0}% from deposit"
-#~ msgstr "+{0}% depozitoden"
+#~ msgstr "Yatak kaynağından +{0}%"
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:132
 #~ msgid "+{0}% from pacifist ethics"
-#~ msgstr ""
+#~ msgstr "Pasifist etiklerden +{0}%"
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:125
 #~ msgid "+{0}% from strategic resources"
-#~ msgstr "+{0}% stratejik kaynaklardan"
+#~ msgstr "Stratejik kaynaklardan +{0}%"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:392
 #: src/components/_user/notification/notification.frontConfig.tsx:1215
