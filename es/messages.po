@@ -1234,11 +1234,12 @@ msgstr "Patrón de la app"
 msgid "Application fee"
 msgstr "Tasa de solicitud"
 
+#: src/components/_political/citizenshipApplication/CitizenshipApplicationForm.tsx:62
 #: src/pages/country/[countryId]/citizenship.tsx:44
 msgid "Apply"
 msgstr "Aplicar"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:101
+#: src/components/_user/worker/WorkerEditFormModal.tsx:102
 msgid "Are you sure you want to fire this worker?"
 msgstr "¿Estás seguro de que quieres despedir a este trabajador?"
 
@@ -2611,7 +2612,7 @@ msgstr "Editar descripción"
 msgid "Edit Description"
 msgstr "Editar descripción"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:142
+#: src/components/_user/worker/WorkerEditFormModal.tsx:143
 msgid "Edit worker"
 msgstr "Editar trabajador"
 
@@ -2742,6 +2743,10 @@ msgstr "Equipamientos"
 msgid "Error"
 msgstr "Error"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:101
+msgid "Estimated benefit per"
+msgstr ""
+
 #: src/pages/party/[partyId]/index.tsx:57
 msgid "Ethics"
 msgstr "Ética"
@@ -2842,6 +2847,10 @@ msgstr "Feed"
 msgid "Fidelity Bonus"
 msgstr "Bono de fidelidad"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:162
+msgid "Fidelity bonus:"
+msgstr ""
+
 #: src/components/_user/user/skills.frontConfig.tsx:190
 msgid "Fight skills"
 msgstr "Habilidades de combate"
@@ -2931,7 +2940,7 @@ msgstr "Buscar otro trabajo"
 msgid "Fine (remove money)"
 msgstr "Multar (quitar dinero)"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:196
+#: src/components/_user/worker/WorkerEditFormModal.tsx:202
 msgid "Fire"
 msgstr "Despedir"
 
@@ -2939,7 +2948,7 @@ msgstr "Despedir"
 msgid "Fire government member"
 msgstr "Destituir a un miembro del gobierno"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:100
+#: src/components/_user/worker/WorkerEditFormModal.tsx:101
 msgid "Fire worker?"
 msgstr "¿Despedir trabajador?"
 
@@ -3439,7 +3448,7 @@ msgstr "Sigue buscando ese Mítico"
 msgid "Keep fighting!"
 msgstr "¡Sigue luchando!"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:183
+#: src/components/_user/worker/WorkerEditFormModal.tsx:189
 msgid "Keep in current company"
 msgstr "Mantener en la empresa actual"
 
@@ -4018,6 +4027,10 @@ msgstr "Nombre"
 msgid "Need a job?"
 msgstr "¿Necesitas trabajo?"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:169
+msgid "Net benefit:"
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:26
 msgid "Never give up!"
 msgstr "¡Nunca te rindas!"
@@ -4578,7 +4591,7 @@ msgstr "¡Pago exitoso! Gracias por apoyar el juego <3"
 msgid "Peace made"
 msgstr "Paz firmada"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:153
+#: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Pending wage reduction"
 msgstr "Reducción salarial pendiente"
 
@@ -4764,6 +4777,10 @@ msgstr "Bono de producción"
 #~ msgid "Production bonus from deposit resources in this region."
 #~ msgstr "Bonificación de producción de recursos del depósito en esta región."
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:154
+msgid "Production bonus:"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:714
 msgid "Production in<0/> is full, you should start production!"
 msgstr "¡La producción en<0/> está llena, deberías iniciar la producción!"
@@ -4831,7 +4848,7 @@ msgstr "Proponer comprar una región"
 msgid "Propose to buy a region from another country"
 msgstr "Proponer comprar una región de otro país"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:205
+#: src/components/_user/worker/WorkerEditFormModal.tsx:211
 msgid "Propose wage reduction"
 msgstr "Proponer reducción salarial"
 
@@ -4877,6 +4894,10 @@ msgstr "Clasificaciones"
 #: src/components/_layout/LayoutRightIcons.tsx:313
 msgid "Ranks"
 msgstr "Rangos"
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:126
+msgid "Raw materials:"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:381
 msgid "Reach level 10"
@@ -5434,6 +5455,10 @@ msgstr "¡Orden de venta coincidida!"
 #: src/pages/market/index.tsx:183
 msgid "Sell orders"
 msgstr "Órdenes de venta"
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:109
+msgid "Sell price:"
+msgstr ""
 
 #: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:147
 msgid "sells"
@@ -6093,7 +6118,7 @@ msgstr "Transacciones"
 msgid "Transfer money"
 msgstr "Transferir dinero"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:181
+#: src/components/_user/worker/WorkerEditFormModal.tsx:187
 msgid "Transfer to company (optional)"
 msgstr "Transferir a empresa (opcional)"
 
@@ -6213,7 +6238,7 @@ msgstr "Actualizar información"
 #~ msgid "Update order"
 #~ msgstr "Actualizar orden"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:207
+#: src/components/_user/worker/WorkerEditFormModal.tsx:213
 msgid "Update worker"
 msgstr "Actualizar trabajador"
 
@@ -6481,11 +6506,15 @@ msgstr "Salario"
 msgid "Wage changed"
 msgstr "Salario cambiado"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:117
+msgid "Wage cost ({productionPoints} pts):"
+msgstr ""
+
 #: src/components/_economy/workOffer/WorkOfferFormModal.tsx:133
 #~ msgid "Wage info"
 #~ msgstr "Info de salario"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:174
+#: src/components/_user/worker/WorkerEditFormModal.tsx:175
 msgid "Wage per production"
 msgstr "Salario por producción"
 
@@ -6498,7 +6527,7 @@ msgstr "Reducción salarial aceptada."
 msgid "Wage reduction proposed"
 msgstr "Reducción salarial propuesta"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:74
+#: src/components/_user/worker/WorkerEditFormModal.tsx:75
 msgid "Wage reduction proposed! Waiting for worker to accept or reject."
 msgstr "¡Reducción salarial propuesta! Esperando a que el trabajador acepte o rechace."
 
@@ -6507,7 +6536,7 @@ msgstr "¡Reducción salarial propuesta! Esperando a que el trabajador acepte o 
 msgid "Waiting for level {0}"
 msgstr "Esperando al nivel {0}"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:156
+#: src/components/_user/worker/WorkerEditFormModal.tsx:157
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Esperando a que el trabajador acepte o rechace la reducción salarial. No puedes cambiar el salario hasta que responda."
 
@@ -6588,6 +6617,14 @@ msgstr "Producción completa"
 msgid "Why do you want to propose this law?"
 msgstr "¿Cuál es el motivo de esta ley?"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:181
+msgid "with bonus"
+msgstr ""
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:191
+msgid "with bonus + fidelity"
+msgstr ""
+
 #: src/components/_military/battle/ActiveBattlesList.tsx:111
 #: src/components/_military/battle/ActiveBattlesList.tsx:174
 msgid "With contracts"
@@ -6610,7 +6647,7 @@ msgstr "Trabaja <0>{count}</0> veces para un empleador"
 msgid "Work and earn!"
 msgstr "¡Trabaja y gana!"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:85
+#: src/components/_user/worker/WorkerEditFormModal.tsx:86
 msgid "Worker fired!"
 msgstr "¡Trabajador despedido!"
 
@@ -6618,7 +6655,7 @@ msgstr "¡Trabajador despedido!"
 msgid "Worker left"
 msgstr "Trabajador se fue"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:62
+#: src/components/_user/worker/WorkerEditFormModal.tsx:63
 msgid "Worker updated!"
 msgstr "¡Trabajador actualizado!"
 

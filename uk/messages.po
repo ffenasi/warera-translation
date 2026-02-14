@@ -1202,11 +1202,12 @@ msgstr "Схема застосунку"
 msgid "Application fee"
 msgstr "Збір за розгляд заявки"
 
+#: src/components/_political/citizenshipApplication/CitizenshipApplicationForm.tsx:62
 #: src/pages/country/[countryId]/citizenship.tsx:44
 msgid "Apply"
 msgstr "Подати заявку"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:101
+#: src/components/_user/worker/WorkerEditFormModal.tsx:102
 msgid "Are you sure you want to fire this worker?"
 msgstr "Ви впевнені, що хочете звільнити цього робітника?"
 
@@ -2519,7 +2520,7 @@ msgstr "Редагувати опис"
 msgid "Edit Description"
 msgstr "Редагувати опис"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:142
+#: src/components/_user/worker/WorkerEditFormModal.tsx:143
 msgid "Edit worker"
 msgstr "Редагувати працівника"
 
@@ -2650,6 +2651,10 @@ msgstr "Спорядження"
 msgid "Error"
 msgstr "Помилка"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:101
+msgid "Estimated benefit per"
+msgstr ""
+
 #: src/pages/party/[partyId]/index.tsx:57
 msgid "Ethics"
 msgstr "Етики"
@@ -2750,6 +2755,10 @@ msgstr "Стрічка"
 msgid "Fidelity Bonus"
 msgstr "Бонус вірності"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:162
+msgid "Fidelity bonus:"
+msgstr ""
+
 #: src/components/_user/user/skills.frontConfig.tsx:190
 msgid "Fight skills"
 msgstr "Бойові навички"
@@ -2835,7 +2844,7 @@ msgstr "Знайдіть іншу роботу"
 msgid "Fine (remove money)"
 msgstr "Штраф (зняти кошти)"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:196
+#: src/components/_user/worker/WorkerEditFormModal.tsx:202
 msgid "Fire"
 msgstr "Звільнити"
 
@@ -2843,7 +2852,7 @@ msgstr "Звільнити"
 msgid "Fire government member"
 msgstr "Звільнити парламентаря"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:100
+#: src/components/_user/worker/WorkerEditFormModal.tsx:101
 msgid "Fire worker?"
 msgstr "Звільнити працівника?"
 
@@ -3319,7 +3328,7 @@ msgstr "Женися за міфіком далі"
 msgid "Keep fighting!"
 msgstr "Продовжуйте битися!"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:183
+#: src/components/_user/worker/WorkerEditFormModal.tsx:189
 msgid "Keep in current company"
 msgstr "Залишити у цій фабриці"
 
@@ -3890,6 +3899,10 @@ msgstr "Назва"
 msgid "Need a job?"
 msgstr "Потрібна робота?"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:169
+msgid "Net benefit:"
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:26
 msgid "Never give up!"
 msgstr "Ніколи не здавайся!"
@@ -4450,7 +4463,7 @@ msgstr "Успішна оплата! Дякую за підтримку гри <
 msgid "Peace made"
 msgstr "Укладено мир"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:153
+#: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Pending wage reduction"
 msgstr "Очікуване зниження зарплатні"
 
@@ -4628,6 +4641,10 @@ msgstr "Виробництво"
 msgid "Production bonus"
 msgstr "Бонус до виробництва"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:154
+msgid "Production bonus:"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:714
 msgid "Production in<0/> is full, you should start production!"
 msgstr "Виробництво <0/> переповнене, варто звільнити склад!"
@@ -4695,7 +4712,7 @@ msgstr "Запропонувати купити регіон"
 msgid "Propose to buy a region from another country"
 msgstr "Запропонувати купити регіон у іншої держави"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:205
+#: src/components/_user/worker/WorkerEditFormModal.tsx:211
 msgid "Propose wage reduction"
 msgstr "Запропонувати зменшення зарплатні"
 
@@ -4741,6 +4758,10 @@ msgstr "Рейтинги"
 #: src/components/_layout/LayoutRightIcons.tsx:313
 msgid "Ranks"
 msgstr "Рейтинг"
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:126
+msgid "Raw materials:"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:381
 msgid "Reach level 10"
@@ -5294,6 +5315,10 @@ msgstr "Замовлення на продаж виконано!"
 #: src/pages/market/index.tsx:183
 msgid "Sell orders"
 msgstr "Замовлення на продаж"
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:109
+msgid "Sell price:"
+msgstr ""
 
 #: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:147
 msgid "sells"
@@ -5949,7 +5974,7 @@ msgstr "Транзакції"
 msgid "Transfer money"
 msgstr "Переказати гроші"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:181
+#: src/components/_user/worker/WorkerEditFormModal.tsx:187
 msgid "Transfer to company (optional)"
 msgstr "Змінити фабрику (опціонально)"
 
@@ -6069,7 +6094,7 @@ msgstr "Оновити інфо"
 #~ msgid "Update order"
 #~ msgstr "Оновлення наказу"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:207
+#: src/components/_user/worker/WorkerEditFormModal.tsx:213
 msgid "Update worker"
 msgstr "Оновити робітника"
 
@@ -6337,7 +6362,11 @@ msgstr "Зарплата"
 msgid "Wage changed"
 msgstr "Зарплату змінено"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:174
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:117
+msgid "Wage cost ({productionPoints} pts):"
+msgstr ""
+
+#: src/components/_user/worker/WorkerEditFormModal.tsx:175
 msgid "Wage per production"
 msgstr "Зарплата за бал виробництва"
 
@@ -6350,7 +6379,7 @@ msgstr "Зменшення зарплати прийнято."
 msgid "Wage reduction proposed"
 msgstr "Запропоновано зменшення зарплати"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:74
+#: src/components/_user/worker/WorkerEditFormModal.tsx:75
 msgid "Wage reduction proposed! Waiting for worker to accept or reject."
 msgstr "Запропоновано зменшення зарплати! Очікуємо на рішення робітника."
 
@@ -6359,7 +6388,7 @@ msgstr "Запропоновано зменшення зарплати! Очік
 msgid "Waiting for level {0}"
 msgstr "Очікуємо на {0} рівень"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:156
+#: src/components/_user/worker/WorkerEditFormModal.tsx:157
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Очікуємо на рішення робітника щодо зменшення зарплати. Ви не можете змінити зарплату, поки він не відповість."
 
@@ -6440,6 +6469,14 @@ msgstr "Загальне виробництво"
 msgid "Why do you want to propose this law?"
 msgstr "Чому ви хочете запропонувати цей закон?"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:181
+msgid "with bonus"
+msgstr ""
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:191
+msgid "with bonus + fidelity"
+msgstr ""
+
 #: src/components/_military/battle/ActiveBattlesList.tsx:111
 #: src/components/_military/battle/ActiveBattlesList.tsx:174
 msgid "With contracts"
@@ -6462,7 +6499,7 @@ msgstr "Попрацюйте на роботодавця <0>{count}</0> разі
 msgid "Work and earn!"
 msgstr "Працюйте та заробляйте!"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:85
+#: src/components/_user/worker/WorkerEditFormModal.tsx:86
 msgid "Worker fired!"
 msgstr "Працівника звільнено!"
 
@@ -6470,7 +6507,7 @@ msgstr "Працівника звільнено!"
 msgid "Worker left"
 msgstr "Робітник вас покинув"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:62
+#: src/components/_user/worker/WorkerEditFormModal.tsx:63
 msgid "Worker updated!"
 msgstr "Працівника оновлено!"
 

@@ -1143,11 +1143,12 @@ msgstr "App 背景"
 msgid "Application fee"
 msgstr "申請費"
 
+#: src/components/_political/citizenshipApplication/CitizenshipApplicationForm.tsx:62
 #: src/pages/country/[countryId]/citizenship.tsx:44
 msgid "Apply"
 msgstr "申請"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:101
+#: src/components/_user/worker/WorkerEditFormModal.tsx:102
 msgid "Are you sure you want to fire this worker?"
 msgstr "你確定要開除這位員工嗎？"
 
@@ -2430,7 +2431,7 @@ msgstr "編輯描述"
 msgid "Edit Description"
 msgstr ""
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:142
+#: src/components/_user/worker/WorkerEditFormModal.tsx:143
 msgid "Edit worker"
 msgstr "編輯員工"
 
@@ -2549,6 +2550,10 @@ msgstr "裝備"
 msgid "Error"
 msgstr "錯誤"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:101
+msgid "Estimated benefit per"
+msgstr ""
+
 #: src/pages/party/[partyId]/index.tsx:57
 msgid "Ethics"
 msgstr ""
@@ -2645,6 +2650,10 @@ msgstr "動態"
 msgid "Fidelity Bonus"
 msgstr "忠誠度加成"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:162
+msgid "Fidelity bonus:"
+msgstr ""
+
 #: src/components/_user/user/skills.frontConfig.tsx:190
 msgid "Fight skills"
 msgstr "打架技能"
@@ -2718,7 +2727,7 @@ msgstr "找別的工作"
 msgid "Fine (remove money)"
 msgstr "罰款 (移除金錢)"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:196
+#: src/components/_user/worker/WorkerEditFormModal.tsx:202
 msgid "Fire"
 msgstr "開除"
 
@@ -2726,7 +2735,7 @@ msgstr "開除"
 msgid "Fire government member"
 msgstr "開除政府成員"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:100
+#: src/components/_user/worker/WorkerEditFormModal.tsx:101
 msgid "Fire worker?"
 msgstr "開除員工？"
 
@@ -3190,7 +3199,7 @@ msgstr "繼續追求那神話裝備"
 msgid "Keep fighting!"
 msgstr "繼續戰鬥！"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:183
+#: src/components/_user/worker/WorkerEditFormModal.tsx:189
 msgid "Keep in current company"
 msgstr "維持在現在公司"
 
@@ -3761,6 +3770,10 @@ msgstr "名稱"
 msgid "Need a job?"
 msgstr "需要一個工作？"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:169
+msgid "Net benefit:"
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:26
 msgid "Never give up!"
 msgstr "永不放棄！"
@@ -4316,7 +4329,7 @@ msgstr "付款成功！謝謝支持遊戲 <3"
 msgid "Peace made"
 msgstr "達成和平"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:153
+#: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Pending wage reduction"
 msgstr "待決定的薪資調降"
 
@@ -4494,6 +4507,10 @@ msgstr "生產"
 msgid "Production bonus"
 msgstr "生產加成"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:154
+msgid "Production bonus:"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:714
 msgid "Production in<0/> is full, you should start production!"
 msgstr "<0/> 的生產點數已滿，你應該開始生產！"
@@ -4561,7 +4578,7 @@ msgstr "提議購買一個地區"
 msgid "Propose to buy a region from another country"
 msgstr "提議向其他國家購買一個地區"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:205
+#: src/components/_user/worker/WorkerEditFormModal.tsx:211
 msgid "Propose wage reduction"
 msgstr "提議減薪"
 
@@ -4599,6 +4616,10 @@ msgstr "排名"
 #: src/components/_layout/LayoutRightIcons.tsx:313
 msgid "Ranks"
 msgstr "排行榜"
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:126
+msgid "Raw materials:"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:381
 msgid "Reach level 10"
@@ -5132,6 +5153,10 @@ msgstr "賣單已配對！"
 #: src/pages/market/index.tsx:183
 msgid "Sell orders"
 msgstr "賣單"
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:109
+msgid "Sell price:"
+msgstr ""
 
 #: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:147
 msgid "sells"
@@ -5787,7 +5812,7 @@ msgstr "交易紀錄"
 msgid "Transfer money"
 msgstr "轉帳"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:181
+#: src/components/_user/worker/WorkerEditFormModal.tsx:187
 msgid "Transfer to company (optional)"
 msgstr "調職到其他公司 (選填)"
 
@@ -5907,7 +5932,7 @@ msgstr "更新資訊"
 #~ msgid "Update order"
 #~ msgstr "更新命令"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:207
+#: src/components/_user/worker/WorkerEditFormModal.tsx:213
 msgid "Update worker"
 msgstr "更新員工資料"
 
@@ -6171,7 +6196,11 @@ msgstr "薪資"
 msgid "Wage changed"
 msgstr "薪資已更改"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:174
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:117
+msgid "Wage cost ({productionPoints} pts):"
+msgstr ""
+
+#: src/components/_user/worker/WorkerEditFormModal.tsx:175
 msgid "Wage per production"
 msgstr "每點生產點數/薪資"
 
@@ -6184,7 +6213,7 @@ msgstr "已接受調降薪資。"
 msgid "Wage reduction proposed"
 msgstr "提議調降薪資"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:74
+#: src/components/_user/worker/WorkerEditFormModal.tsx:75
 msgid "Wage reduction proposed! Waiting for worker to accept or reject."
 msgstr "已提議調降薪資！請等待員工的答覆。"
 
@@ -6193,7 +6222,7 @@ msgstr "已提議調降薪資！請等待員工的答覆。"
 msgid "Waiting for level {0}"
 msgstr "等待達到等級 {0}"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:156
+#: src/components/_user/worker/WorkerEditFormModal.tsx:157
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "在員工同意或拒絕接受降薪之前，你無法更改其薪資。"
 
@@ -6274,6 +6303,14 @@ msgstr "所有產量"
 msgid "Why do you want to propose this law?"
 msgstr "你為何想提出這項法律？"
 
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:181
+msgid "with bonus"
+msgstr ""
+
+#: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:191
+msgid "with bonus + fidelity"
+msgstr ""
+
 #: src/components/_military/battle/ActiveBattlesList.tsx:111
 #: src/components/_military/battle/ActiveBattlesList.tsx:174
 msgid "With contracts"
@@ -6296,7 +6333,7 @@ msgstr "為雇主工作 <0>{count}</0> 次"
 msgid "Work and earn!"
 msgstr "賺錢養國！"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:85
+#: src/components/_user/worker/WorkerEditFormModal.tsx:86
 msgid "Worker fired!"
 msgstr "員工已解雇！"
 
@@ -6304,7 +6341,7 @@ msgstr "員工已解雇！"
 msgid "Worker left"
 msgstr "員工離職"
 
-#: src/components/_user/worker/WorkerEditFormModal.tsx:62
+#: src/components/_user/worker/WorkerEditFormModal.tsx:63
 msgid "Worker updated!"
 msgstr "員工資料已更新！"
 
