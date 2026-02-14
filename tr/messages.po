@@ -87,8 +87,7 @@ msgstr "{0}/{1} aktif"
 
 #. placeholder {0}: companyCountry.taxes.income
 #: src/components/_economy/company/CompanyTags.tsx:50
-msgid ""
-"{0}% income tax will be deducted from earnings when working in this company."
+msgid "{0}% income tax will be deducted from earnings when working in this company."
 msgstr "Bu şirkette çalışırken kazançlardan {0}% gelir vergisi kesilecek."
 
 #. placeholder {0}: region.taxPercent
