@@ -1650,6 +1650,18 @@ msgstr "Ülke renk şemasını <1>{1}</1> harita aksanıyla <0>{0}</0> olarak de
 msgid "Change the tax of {0} to"
 msgstr "{0} vergisini şu şekilde değiştir"
 
+#: src/components/_other/ActionLogList.tsx:69
+#~ msgid "Changed citizenship"
+#~ msgstr "Vatandaşlık değiştirildi"
+
+#: src/components/_other/ActionLogList.tsx:73
+#~ msgid "Changed description"
+#~ msgstr "Açıklama değiştirildi"
+
+#: src/components/_other/ActionLogList.tsx:66
+#~ msgid "Changed username"
+#~ msgstr "Kullanıcı adı değiştirildi"
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:83
 msgid "Check your loot!"
 msgstr "Ganimetini göz at!"
